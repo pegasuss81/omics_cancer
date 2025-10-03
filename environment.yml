@@ -1,0 +1,19 @@
+name: omics_cancer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - shap
+  - matplotlib
+  - seaborn
+  - plotly
+  - streamlit
+  - joblib
+  - jupyter 
+  - xgboost
+  - pip
+  - pip:
+      - gseapy>=1.1.2

@@ -1,0 +1,4 @@
+ROC AUC mean±sd: 0.967 ± 0.004
+F1 mean±sd: 0.963 ± 0.007
+Modality: both
+CV: StratifiedGroupKFold

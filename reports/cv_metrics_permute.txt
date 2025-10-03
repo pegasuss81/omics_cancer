@@ -1,0 +1,5 @@
+ROC AUC mean±sd: 0.610 ± 0.105
+F1 mean±sd: 0.942 ± 0.015
+(permutation test enabled)
+Modality: both
+CV: StratifiedGroupKFold
