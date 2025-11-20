@@ -16,10 +16,9 @@ jobs:
         uses: conda-incubator/setup-miniconda@v2
         with:
           python-version: "3.10"
-	  environment-file: environment.yml
-	  activate-environment: omics_cancer
+          environment-file: environment.yml
+          activate-environment: omics_cancer
 
       - name: Run tests
         run: |
           pytest -q
-
